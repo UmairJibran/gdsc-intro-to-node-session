@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-node-session",
+  "version": "0.0.1",
+  "description": "This is a learning of nodejs session",
+  "main": "server.js",
+  "repository": "git@github.com:umairjibran/gdsc-intro-to-node-session.git",
+  "author": "Umair Jibran <me@umairjibran.com>",
+  "license": "none",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
