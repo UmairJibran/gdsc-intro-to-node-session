@@ -43,6 +43,12 @@ app.post('/add-two-numbers', (req, res) => {
   }
 });
 
+app.all('*', (req, res) => {
+  return res.status(404).json({
+    message: 'Route Not Found!',
+  });
+});
+
 // export the newly intialized app
 module.exports = app;
 
